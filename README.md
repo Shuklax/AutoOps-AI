@@ -28,6 +28,7 @@ This project demonstrates:
 ## Architecture Diagram
 
 High-Level Architecture:  
+<img width="1386" height="503" alt="image" src="https://github.com/user-attachments/assets/bc0f6369-c48a-48c6-b416-7d5bc3c8fb25" />
 
 
 ## API Endpoints
