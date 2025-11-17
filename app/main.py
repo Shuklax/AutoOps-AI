@@ -13,17 +13,17 @@ from websocket.notifier import manager
 async def lifespan(app: FastAPI):
     """Startup and shutdown events"""
     # Startup
-    print("🚀 Starting Automation Agent...")
+    print("Starting Automation Agent...")
     init_db()
     await task_processor.start()
-    print("✅ Database initialized")
-    print("✅ Background worker started")
-    print("✅ Server ready!")
+    print("Database initialized")
+    print("Background worker started")
+    print("Server ready!")
     
     yield
     
     # Shutdown
-    print("👋 Shutting down...")
+    print("Shutting down...")
 
 app = FastAPI(
     title="Enterprise Automation Agent",
