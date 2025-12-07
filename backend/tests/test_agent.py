@@ -62,7 +62,7 @@ def test_run_task():
 
 def main():
     print("\n" + "="*60)
-    print("ENTERPRISE AUTOMATION AGENT - TEST SUITE")
+    print("AutoOps-AI - TEST SUITE")
     print("="*60 + "\n")
     
     try:

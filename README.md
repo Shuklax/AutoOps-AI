@@ -1,8 +1,8 @@
-# Enterprise-Automation-Agent
+# AutoOps-AI
 A multi-step workflow agent that retrieves data, reasons, takes actions, writes results and then notifies user.
 
 ## Overview
-Enterprise Automation Agent is a multi-step agent framework that retrieves business data, performs LLM-powered reasoning, executes actions, stores results in a database, and streams live updates to a UI via WebSockets.
+AutoOps-AI is a multi-step agent framework that retrieves business data, performs LLM-powered reasoning, executes actions, stores results in a database, and streams live updates to a UI via WebSockets.
 
 This project demonstrates:
 
