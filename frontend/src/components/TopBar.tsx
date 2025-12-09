@@ -1,4 +1,3 @@
-import { Bell, Moon } from "lucide-react";
 
 const TopBar = () => {
   return (
