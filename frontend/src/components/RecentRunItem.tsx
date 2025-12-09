@@ -50,17 +50,17 @@ const RecentRunItem = ({
           {getIcon(status)}
         </div>
         <div>
-          <h4 className="text-sm font-medium text-gray-200 group-hover:text-white transition-colors">
+          <h4 className="text-sm font-semibold text-gray-200 group-hover:text-white transition-colors">
             {title}
           </h4>
-          <p className="text-xs text-gray-500">
+          <p className="text-xs text-gray-400">
             {runId} • {timeAgo}
           </p>
         </div>
       </div>
       <div>
         <span
-          className={`px-2 py-1 rounded-full text-xs font-medium border ${getStatusColor(
+          className={`px-2 py-1 rounded-full text-xs font-semibold border ${getStatusColor(
             status
           )}`}
         >
