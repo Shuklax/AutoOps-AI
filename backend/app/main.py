@@ -26,7 +26,7 @@ async def lifespan(app: FastAPI):
     print("Shutting down...")
 
 app = FastAPI(
-    title="Enterprise Automation Agent",
+    title="AutoOps-AI",
     description="Multi-step workflow agent with reasoning and actions",
     version="1.0.0",
     lifespan=lifespan
@@ -48,7 +48,7 @@ app.include_router(tasks_router)
 async def root():
     """Root endpoint"""
     return {
-        "service": "Enterprise Automation Agent",
+        "service": "AutoOps-AI",
         "status": "running",
         "version": "1.0.0",
         "endpoints": {
